@@ -46,7 +46,7 @@ const GridTable = () => {
 
   return (
     <div className="grid-container">
-      <div className="ag-theme-quartz" style={{ height: '500px', width: '100%' }}>
+      <div className="ag-theme-quartz" style={{ height: '100%', width: '100%' }}>
         <AgGridReact
           columnDefs={columnDefs}
           defaultColDef={defaultColDef}
