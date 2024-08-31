@@ -18,7 +18,7 @@ const Charts = () => {
 
 
   return (
-    <div>
+    <div className="chart__container">
       <ChartGSTR3B chartData={chartData} />
       <ChartGSTRR1 chartData={chartData}/>
     </div>

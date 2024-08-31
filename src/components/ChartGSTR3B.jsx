@@ -8,8 +8,7 @@ const ChartGSTR3B = ({ chartData}) => {
       {
         type: "bar",
         xKey: "GSTR3B Filling Status",
-        yKey: "3B Value",
-        yName: "Ice Cream Sales",
+        yKey: "3B Value"
       }
     ],
   });
@@ -20,7 +19,9 @@ const ChartGSTR3B = ({ chartData}) => {
 
 
   return (
-    <AgCharts options={options}/>
+    <div className="charts">
+      <AgCharts options={options}/>
+    </div>
   )
 }
 

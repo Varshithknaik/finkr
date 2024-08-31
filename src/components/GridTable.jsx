@@ -26,7 +26,10 @@ const GridTable = () => {
         field: '3B Value',
       },
       {
-        field: 'Avg Days',
+        field: 'GSTRR1 Filling Status',
+      },
+      {
+        field: 'R1 Value',
       }
     ];
   },[]);

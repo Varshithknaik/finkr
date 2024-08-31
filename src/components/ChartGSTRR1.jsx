@@ -20,7 +20,9 @@ const ChartGSTRR1 = ({ chartData}) => {
 
 
   return (
-    <AgCharts options={options}/>
+    <div className="charts">
+      <AgCharts options={options}/>
+    </div>
   )
 }
 
